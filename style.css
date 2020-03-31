@@ -1,0 +1,273 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Vesper Libre', serif;
+    color: rgb(207,19,107);
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+}
+nav {
+     width: 90%;
+     margin: 10px auto;
+     text-align: right;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(207,19,107);
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 7px 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.strapline-container {
+    border: 2px solid rgb(207,19,107);
+    width: 90%;
+    height: 85%;
+    background-image: url(images/img_1.jpg);
+    margin: auto auto;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Vesper Libre', serif;
+}
+
+.line-1 {
+    font-size: 100px;
+    color: rgb(207,19,107);
+    text-transform: uppercase;
+    margin: 50px 0px;
+}
+
+.line-2 {
+    color: #FFFFDD;
+    font-size: 35px;
+    font-style: italic;
+
+}
+
+.section {
+    color: rgb(207,19,107);
+    text-align: center;
+    font-size: 250%;
+    font-family:'Vesper Libre', serif ;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.about-section {
+    width: 100vw;
+    height: 90vh;
+}
+
+.about-container {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    width:45%;
+    height: 500px;
+    color: rgb(207,19,107);
+    text-align: justify;
+    line-height: 220%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+.right-box {
+    width:40%;
+    height: 500px;
+    margin-left: 6%;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-image-1 {
+    width:50%;
+    height:240px;
+}
+
+#image-1 {
+    background-image: url(images/img_2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#image-2 {
+    background-image: url(images/img_3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#image-3 {
+    background-image: url(images/img_4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#image-4 {
+    background-image: url(images/img_5.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.donuts-section {
+    width:100vw;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.row-1 {
+    margin: 5px auto;
+    width : 90%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.grid-item {
+    width:  30%;
+    height: 350px;
+    margin: 2px auto;
+} 
+
+.grid-item:hover {
+    opacity: 0.80;
+}
+
+#grid-item-1{
+    background-image: url(images/img_6.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid-item-2{
+    background-image: url(images/img_7.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid-item-3{
+    background-image: url(images/img_8.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid-item-4{
+    background-image: url(images/img_9.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid-item-5{
+    background-image: url(images/img_10.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid-item-6{
+    background-image: url(images/img_11.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid-item-7{
+    background-image: url(images/img_12.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid-item-8{
+    background-image: url(images/img_13.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid-item-9{
+    background-image: url(images/img_14.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.stores-section {
+    width:100vw;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.stores-container {
+    width:90%;
+    margin: 2px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.store-div {
+    width:30%;
+    margin: 2px auto;
+    text-align: center;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact-section {
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    background-color: rgb(207,19,107);
+    color: #FFFFDD;
+}
+
+.contact-title {
+    margin:25px auto;
+    font-size: 220%;
+    text-transform: uppercase;
+}
+
+.email {
+    font-size: 130%;
+}
+.social-media-div {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.social-icon {
+    margin: 5px;
+}
